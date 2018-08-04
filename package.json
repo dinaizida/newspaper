@@ -1,0 +1,29 @@
+{
+  "name": "newspaper",
+  "version": "1.0.0",
+  "description": "### Newspaper",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mongoose": "^5.2.6",
+    "npm": "^6.3.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinaizida/newspaper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinaizida/newspaper/issues"
+  },
+  "homepage": "https://github.com/dinaizida/newspaper#readme"
+}
