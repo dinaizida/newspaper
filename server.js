@@ -137,13 +137,10 @@ app.post("/articles/save/:id", function(req, res) {
         }, {
             "saved": true
         })
-       
         .then(function(err, doc) {
-            
             if (err) {
                 console.log(err);
             } else {
-               
                 res.send(doc);
             }
         });
@@ -186,7 +183,7 @@ app.post("/notes/save/:id", function(req, res) {
             // Use the article id to find and update it's notes
             db.Article.findOneAndUpdate({
                     "_id": req.params.id
-                }, {
+                }, { //appends a specified value to an array
                     $push: {
                         "notes": note
                     }
@@ -219,6 +216,7 @@ app.delete("/notes/delete/:note_id/:article_id", function(req, res) {
             db.Article.findOneAndUpdate({
                     "_id": req.params.article_id
                 }, {
+                    // removes from an existing array all instances of a value or values that match an ID.
                     $pull: {
                         "notes": req.params.note_id
                     }
