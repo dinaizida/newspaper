@@ -14,7 +14,7 @@ Whenever a user visits your site, the app should scrape stories from a news outl
 
 # Technologies Used: 
 
-Mongoose, Cheerio, Request, Node.js, MySQL, Sequelize, Handlebars, Express, Materialize, Bootstrap, Affinity Photo. 
+Mongoose, Cheerio, Request, Node.js, MySQL, Handlebars, Express, Materialize, Bootstrap, Affinity Photo. 
 
 
 ![Screen Shot](public/assets/images/paper.png)
