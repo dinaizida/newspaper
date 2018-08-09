@@ -17,4 +17,4 @@ Whenever a user visits your site, the app should scrape stories from a news outl
 Mongoose, Cheerio, Request, Node.js, MySQL, Sequelize, Handlebars, Express, Materialize, Bootstrap, Affinity Photo. 
 
 
-![Screen Shot](public/assets/images/news.png)
+![Screen Shot](public/assets/images/paper.png)
