@@ -1,31 +1,21 @@
 {
-  "name": "newspaper",
+  "name": "mongo-scraper",
   "version": "1.0.0",
-  "description": "### Newspaper",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.11",
-    "mongoose": "^5.2.6",
-    "morgan": "^1.9.0",
-    "npm": "^6.3.0",
-    "request": "^2.87.0"
-  },
-  "devDependencies": {},
+  "description": "Web app that lets users leave comments on the latest news.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dinaizida/newspaper.git"
-  },
-  "author": "",
+  "author": "Linette Hsu",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dinaizida/newspaper/issues"
-  },
-  "homepage": "https://github.com/dinaizida/newspaper#readme"
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.6",
+    "morgan": "^1.7.0",
+    "request": "^2.81.0"
+  }
 }
