@@ -3,7 +3,7 @@
 
 ### Newspaper
 
-Deployed app on Heroku [here](https://test.herokuapp.com/).
+Deployed app on Heroku [here](https://stark-wildwood-39947.herokuapp.com/).
 
 # Project Description:
 Whenever a user visits your site, the app should scrape stories from a news outlet of your choice and display them for the user. Each scraped article should be saved to your application database. The app scrapes and displays the following information for each article:
